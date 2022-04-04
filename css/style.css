@@ -23,8 +23,8 @@ body {
     align-items: center;
     padding: 80px;
     position: relative;
-    -webkit-box-shadow: 0px 1px 50px 7px rgba(177,171,169,0.5); 
-    box-shadow: 0px 1px 50px 7px rgba(177,171,169,0.5);
+    /* -webkit-box-shadow: 0px 1px 50px 7px rgba(177,171,169,0.5); 
+    box-shadow: 0px 1px 50px 7px rgba(177,171,169,0.5); */
     flex-direction: column;
 }
 .box1 img {
@@ -71,4 +71,9 @@ h1 {
     margin-top: 557px;
     font-size: 15px;
     font-weight:800;
+}
+.box1:hover {
+    -webkit-box-shadow: 0px 1px 50px 7px rgba(177,171,169,0.5); 
+    box-shadow: 0px 1px 50px 7px rgba(177,171,169,0.5);
+    transition: 400ms;
 }
